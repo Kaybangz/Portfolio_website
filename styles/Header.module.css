@@ -1,0 +1,27 @@
+.hero_socials{
+    position: absolute;
+    right: 0;
+    top: 25.6rem;
+}
+
+.modalBtn{
+    margin-right: .9rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+    .hero_socials{
+        display: none;
+    }
+
+    .modalBtn{
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (min-height: 700px){
+    .hero_socials{
+        top: 28.4rem;
+    }
+}

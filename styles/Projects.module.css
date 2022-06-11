@@ -1,0 +1,118 @@
+.projects_main {
+    height: auto;
+    margin: 5rem 0;
+}
+
+.projects_main h1 {
+    font-size: clamp(1.6rem, 3.5vw, 1.9rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #3a9efc;
+}
+
+.projects_section {
+    display: grid;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a9efc62;
+    margin-bottom: 1.5rem;
+    border: 1px solid #3a9efc6c;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: -8px 11px 8px -5px rgba(193, 220, 248, 0.85);
+    -webkit-box-shadow: -8px 11px 8px -5px rgba(193, 220, 248, 0.85);
+    -moz-box-shadow: -8px 11px 8px -5px rgba(193, 220, 248, 0.85);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+
+}
+
+.top h2 {
+    font-size: clamp(1.1rem, 3.8vw, 1.2rem);
+    font-weight: 900;
+}
+
+.top span {
+    padding: 5px;
+    border: 1px solid rgb(173, 1, 10);
+    border-radius: 5px;
+    background-color: rgba(173, 1, 10, 0.219);
+}
+
+.projects_img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-filter: blur(.9px);
+    filter: blur(.9px);
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+    flex: 1;
+}
+
+.middle p {
+    flex: 2;
+    font-size: clamp(1.2rem, 3.8vw, 1.3rem);
+    font-weight: 900;
+    margin-top: .5rem;
+}
+
+.icons {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.middle aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .6rem;
+    flex: 1;
+}
+
+.bottom {
+    display: grid;
+    margin-bottom: 1.3rem;
+    gap: .6rem;
+}
+
+.tools {
+    height: fit-content;
+    margin-right: .6rem;
+    border: 1px solid #3a9efc94;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #509be049;
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 600px) {
+    .projects_main {
+        margin: 0 0 4rem .3rem;
+    }
+
+    .projects_section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

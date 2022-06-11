@@ -1,0 +1,56 @@
+.socials_main {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    gap: 1rem;
+}
+
+.button {
+    height: 35px;
+    width: 35px;
+    /* border: 1px solid #3a9efc;
+    background-color: #0b72d3c7; */
+    background: rgba(58, 158, 252, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.2px);
+-webkit-backdrop-filter: blur(2.2px);
+border: 1px solid rgba(58, 158, 252, 0.25);
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials_main_icons {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 730px) {
+
+    .socials_main {
+        gap: 1.3rem;
+    }
+
+    .socials_main button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .socials_main_icons {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+
+    .socials_main button {
+        height: 37px;
+        width: 37px;
+    }
+
+    .socials_main_icons {
+        font-size: 23px;
+    }
+}
