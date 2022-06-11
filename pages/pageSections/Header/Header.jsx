@@ -46,7 +46,7 @@ const Header = () => {
         }}
       >
         <div>
-          <span >
+          <span>
             <Image
               src="/header_logo.png"
               alt="logo"
@@ -83,11 +83,14 @@ const Header = () => {
             <ModalHeader>ABOUT ME</ModalHeader>
 
             <ModalBody>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              architecto doloremque dignissimos laborum aut soluta nostrum quas
-              facilis et suscipit? Eaque iusto nam omnis aperiam labore ipsa
-              nisi facilis corporis rerum iure iste culpa minima veritatis
-              laboriosam, pariatur aut quis.
+              <div>
+                <p>
+                  I am a coding enthusiast, a quick learner, and am always eager
+                  to learn about any tool or technology that would allow me to
+                  develop seamless, intuitive, and dynamic user experiences.
+                </p>
+                <p>I also have an obsessive basketball addiction.</p>
+              </div>
             </ModalBody>
             <ModalFooter>
               <Button onClick={onClose}>Close</Button>
