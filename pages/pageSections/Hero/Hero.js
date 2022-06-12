@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import ContainerSmall from "../../../component/ContainerSmall/ContainerSmall";
+import ContainerSmall from "../../../component/Container/Container";
 import HeroStyle from "../../../styles/Hero.module.css";
 import { motion } from "framer-motion";
 import { Box } from "@chakra-ui/react";
@@ -32,7 +32,7 @@ const Hero = () => {
               }}
               animate={{ opacity: 1, y: 0 }}
             >
-              I am a Frontend Software developer based in Nigeria
+              I am a Web developer based in Nigeria
             </motion.h1>
 
             <motion.p

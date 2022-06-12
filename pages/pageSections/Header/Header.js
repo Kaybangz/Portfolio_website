@@ -13,7 +13,7 @@ import {
   Button,
   useDisclosure,
 } from "@chakra-ui/react";
-import ContainerSmall from "../../../component/ContainerSmall/ContainerSmall";
+import ContainerSmall from "../../../component/Container/Container";
 import Socials from "../../../component/Socials/Socials";
 
 const closeModalStyle = {
@@ -84,12 +84,11 @@ const Header = () => {
 
             <ModalBody>
               <div>
-                <p>
-                  I am a coding enthusiast, a quick learner, and am always eager
+                <p style={{fontSize: "clamp(1.1rem, 3.8vw, 1.2rem)"}}>
+                  I am a coding enthusiast, a quick learner, and always eager
                   to learn about any tool or technology that would allow me to
-                  develop seamless, intuitive, and dynamic user experiences.
+                  develop web or mobile applications with seamless, intuitive, and dynamic user experiences. <br/> <br/>I also enjoy playing basketball and FPS video games.
                 </p>
-                <p>I also have an obsessive basketball addiction.</p>
               </div>
             </ModalBody>
             <ModalFooter>

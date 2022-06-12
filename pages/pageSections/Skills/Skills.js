@@ -1,4 +1,4 @@
-import ContainerSmall from "../../../component/ContainerSmall/ContainerSmall";
+import ContainerSmall from "../../../component/Container/Container";
 import SkillsStyle from "../../../styles/Skills.module.css";
 import {SiJavascript, SiTypescript, SiNextdotjs, SiNodemon, SiMongodb, SiSolidity, SiWeb3Dotjs, SiRedux} from "react-icons/si";
 import {FaReact} from "react-icons/fa"

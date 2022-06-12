@@ -2,7 +2,7 @@
     display: grid;
     align-self: center;
     justify-self: center;
-    gap: 1rem;
+    gap: .8rem;
 }
 
 .socials_main button {
@@ -25,30 +25,3 @@
     font-size: 20px;
 }
 
-@media screen and (min-width: 730px) {
-
-    .socials_main {
-        gap: 1.2rem;
-    }
-
-    .socials_main button {
-        height: 40px;
-        width: 40px;
-    }
-
-    .socials_main_icons {
-        font-size: 23px;
-    }
-}
-
-@media screen and (min-width: 1220px) {
-
-    .socials_main button {
-        height: 37px;
-        width: 37px;
-    }
-
-    .socials_main_icons {
-        font-size: 23px;
-    }
-}

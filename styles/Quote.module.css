@@ -7,7 +7,7 @@ margin-bottom: 1.5rem;
     justify-content: center;
 }
 
-.quote_section h1{
+.quote_section blockquote{
     font-size: clamp(1.6rem, 3.8vw, 1.8rem);
     font-weight: 900;
     text-align: center;

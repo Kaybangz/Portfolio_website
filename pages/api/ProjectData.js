@@ -56,7 +56,7 @@ const projectsData = [
     name: "Nba App",
     image: "/ballIsLifeBg.png",
     description:
-      "Check for any Nba player's basic information and stats for 2021/2022 nba season",
+      "Check for 2021/2022 nba season stats of any Nba player",
     github: "https://github.com/Kaybangz/basketball-program",
     liveView: "https://kaybangz.github.io/basketball-program/",
 

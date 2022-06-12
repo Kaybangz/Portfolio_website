@@ -1,5 +1,5 @@
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
-import ContainerSmall from "../../../component/ContainerSmall/ContainerSmall";
+import ContainerSmall from "../../../component/Container/Container";
 import QuoteStyle from "../../../styles/Quote.module.css";
 
 const Quote = () => {
@@ -8,7 +8,7 @@ const Quote = () => {
       <main className={QuoteStyle.quote_main}>
         <section className={QuoteStyle.quote_section}>
           <ImQuotesLeft />
-          <h1>If I do not know it already, I will figure it out.</h1>
+          <blockquote>If I do not know it already, I will figure it out.</blockquote>
           <ImQuotesRight />
         </section>
 

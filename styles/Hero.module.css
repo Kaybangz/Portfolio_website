@@ -37,7 +37,8 @@
 }
 
 .sectionOne p {
-    font-weight: 500;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    font-weight: 300;
 }
 
 @media screen and (min-width: 700px) {
@@ -58,10 +59,15 @@
         text-align: left;
         margin-bottom: 0;
         margin-left: 1rem;
+        height: 100%;
     }
 
     .sectionOne div{
         margin-left: .3rem;
+    }
+
+    .sectionOne p{
+        line-height: 2rem;
     }
 }
 
@@ -72,18 +78,6 @@
     
     .sectionOne {
         margin-bottom: 1.6rem;
-    }
-
-    .sectionOne h2 {
-        font-size: clamp(1.2rem, 3.5vw, 1.5rem);
-    }
-    
-    .sectionOne h1 {
-        font-size: clamp(2.2rem, 3.5vw, 2.7rem);
-    }
-
-    .sectionOne p{
-        font-size: clamp(1rem, 3.5vw, 1.3rem); 
     }
     
 }

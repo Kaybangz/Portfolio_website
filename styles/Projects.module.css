@@ -17,14 +17,13 @@
 .projectContainer {
     display: flex;
     flex-direction: column;
-    background-color: #3a9efc62;
+    background-color: #51a3f083;
     margin-bottom: 1.5rem;
-    border: 1px solid #3a9efc6c;
     border-radius: 5px;
     padding: 15px;
-    box-shadow: -8px 11px 8px -5px rgba(193, 220, 248, 0.85);
-    -webkit-box-shadow: -8px 11px 8px -5px rgba(193, 220, 248, 0.85);
-    -moz-box-shadow: -8px 11px 8px -5px rgba(193, 220, 248, 0.85);
+    box-shadow: 0 0 4px #6fb3f375;
+    -webkit-box-shadow: 0 0 10px #6fb3f375;
+    -moz-box-shadow: 0 0 10px #6fb3f375;
 }
 
 .top {
@@ -42,19 +41,9 @@
 
 .top span {
     padding: 5px;
-    border: 1px solid rgb(173, 1, 10);
     border-radius: 5px;
-    background-color: rgba(173, 1, 10, 0.219);
 }
 
-.projects_img{
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-    -webkit-filter: blur(.9px);
-    filter: blur(.9px);
-}
 
 .middle {
     display: flex;
@@ -71,10 +60,19 @@
     margin-top: .5rem;
 }
 
-.icons {
-    font-size: 1.3rem;
+.iconBtn {
+    flex: 2;
+    height: 30px;
+    width: 30px;
     margin-bottom: .5rem;
     cursor: pointer;
+    background-color: #6189ad41;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.icon {
+    font-size: 1.2rem;
 }
 
 .middle aside {
@@ -94,10 +92,9 @@
 .tools {
     height: fit-content;
     margin-right: .6rem;
-    border: 1px solid #3a9efc94;
     border-radius: 5px;
-    padding: 5px;
-    background-color: #509be049;
+    padding: 7px;
+    background-color: #6189ad41;
     font-weight: 600;
 }
 
