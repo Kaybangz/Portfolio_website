@@ -31,7 +31,7 @@
 }
 
 .sectionOne h1 {
-    color: #3a9efc;
+    color: #3a9efce8;
     font-size: clamp(1.8rem, 2.5vw, 2.1rem);
     font-weight: 800;
 }

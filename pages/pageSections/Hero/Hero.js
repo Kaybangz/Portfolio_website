@@ -54,14 +54,14 @@ const Hero = () => {
 
         <motion.section
           className={HeroStyle.sectionTwo}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, y: 100 }}
           transition={{
             duration: 2,
             ease: "easeInOut",
             type: "spring",
             delay: 0.9,
           }}
-          animate={{ opacity: 1, x: 0 }}
+          animate={{ opacity: 1, y: 0 }}
         >
           <img
             src="/hero_illustration.gif"

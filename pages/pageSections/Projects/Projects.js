@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useEffect } from "react";
+import Image from "next/image"
 import ContainerSmall from "../../../component/Container/Container";
 import ProjectsStyle from "../../../styles/Projects.module.css";
 import projectsData from "../../api/ProjectData";
@@ -44,6 +45,11 @@ const Projects = () => {
                 className={ProjectsStyle.projectContainer}
                 animate={animation}
                 transition={{ duration: 1, delay: index * 0.2 }}
+                style={{
+                  background: `linear-gradient(#3a9efce8, #3a9efce8),url(${project.image})`,
+                  backdropFilter: "blur(2.7px)",
+                  
+                }}
               >
                 <div className={ProjectsStyle.top}>
                   <h2>{project.name}</h2>
@@ -106,16 +112,7 @@ const Projects = () => {
                   </aside>
                 </div>
 
-                <div>
-                  <h3
-                    style={{
-                      fontSize: "clamp(1.1rem, 3.8vw, 1.2rem)",
-                      fontWeight: "600",
-                      marginBottom: ".5rem",
-                    }}
-                  >
-                    Built using
-                  </h3>
+            
                   <div className={ProjectsStyle.bottom}>
                     {project.tools.map((tool) => {
                       return (
@@ -125,7 +122,6 @@ const Projects = () => {
                       );
                     })}
                   </div>
-                </div>
               </motion.div>
             );
           })}

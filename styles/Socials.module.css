@@ -8,7 +8,7 @@
 .socials_main button {
     height: 35px;
     width: 35px;
-    background: rgba(58, 158, 252, 0.6);
+    background: #3a9efce8;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.2px);
