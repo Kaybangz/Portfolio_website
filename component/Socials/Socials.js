@@ -8,60 +8,84 @@ import { BsFillFileEarmarkTextFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import SocialsStyle from "../../styles/Socials.module.css";
 
-
-
 const Socials = () => {
   return (
     <main className={SocialsStyle.socials_main}>
-      <motion.button
-        transition={{duration: 2, ease: 'easeInOut', delay: .8, yoyo: 5}}
-        animate={{ rotate: 360 }}
-      >
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
-        <BsFillFileEarmarkTextFill
-          className={SocialsStyle.socials_main_icons}
-        />
-      </motion.button>
 
-      <motion.button
-        transition={{duration: 2, ease: 'easeInOut', delay: 1, yoyo: 5}}
+      <motion.a href="/Caleb's resume.docx" download transition={{ duration: 2, ease: "easeInOut", delay: 0.8, yoyo: 5 }}
+          animate={{ rotate: 360 }}>
+        <button
+          
+        >
+          <BsFillFileEarmarkTextFill
+            className={SocialsStyle.socials_main_icons}
+          />
+        </button>
+      </motion.a>
+
+
+      <motion.a
+          href="https://github.com/Kaybangz"
+          target="_blank"
+          rel="noopener noreferrer"
+          transition={{ duration: 2, ease: "easeInOut", delay: 1, yoyo: 5 }}
         animate={{ rotate: 360 }}
-      >
-        <a href="https://github.com/Kaybangz" target="_blank" rel="noopener noreferrer">
+        >
+      <button>
+        
           <AiFillGithub className={SocialsStyle.socials_main_icons} />
-        </a>
-      </motion.button>
+        
+      </button>
+      </motion.a>
 
-      <motion.button
-        transition={{duration: 2, ease: 'easeInOut', delay: 1.2, yoyo: 5}}
-        animate={{ rotate: 360 }}
-      >
-        <a
+
+      <motion.a
           href="https://www.linkedin.com/in/igcaleb/"
           target="_blank"
           rel="noopener noreferrer"
+          transition={{ duration: 2, ease: "easeInOut", delay: 1.2, yoyo: 5 }}
+        animate={{ rotate: 360 }}
         >
+      <button
+      >
+        
           <AiFillLinkedin className={SocialsStyle.socials_main_icons} />
-        </a>
-      </motion.button>
+        
+      </button>
+      </motion.a>
 
-      <motion.button
-        transition={{duration: 2, ease: 'easeInOut', delay: 1.4, yoyo: 5}}
+
+      <motion.a
+          href="https://twitter.com/IgKaybangz"
+          target="_blank"
+          rel="noopener noreferrer"
+          transition={{ duration: 2, ease: "easeInOut", delay: 1.4, yoyo: 5 }}
         animate={{ rotate: 360 }}
+        >
+      <button
+        
       >
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        
           <AiFillTwitterCircle className={SocialsStyle.socials_main_icons} />
-        </a>
-      </motion.button>
+        
+      </button>
+      </motion.a>
 
-      <motion.button
-        transition={{duration: 2, ease: 'easeInOut', delay: 1.6, yoyo: 5}}
+      <motion.a
+          href="mailto:devCaleb96@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          transition={{ duration: 2, ease: "easeInOut", delay: 1.6, yoyo: 5 }}
         animate={{ rotate: 360 }}
+        >
+      <button
+        
       >
-        <a href="mailto:devCaleb96@gmail.com" target="_blank" rel="noopener noreferrer">
-        <SiGmail className={SocialsStyle.socials_main_icons} />
-        </a>
-      </motion.button>
+        
+          <SiGmail className={SocialsStyle.socials_main_icons} />
+        
+      </button>
+      </motion.a>
     </main>
   );
 };

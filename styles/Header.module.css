@@ -1,27 +1,32 @@
-.hero_socials{
+.hero_socials {
     position: absolute;
     right: 0;
     top: 25.6rem;
 }
 
-.modalBtn{
+.modalBtn {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
     margin-right: .9rem;
     margin-top: -1rem;
     cursor: pointer;
+    border: 3px solid white;
+}
+
+.modalBtn_img {
+    border-radius: 100%;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 700px) {
-    .hero_socials{
+    .hero_socials {
         display: none;
-    }
-
-    .modalBtn{
-        margin-right: 5rem;
     }
 }
 
-@media screen and (min-height: 700px){
-    .hero_socials{
+@media screen and (min-height: 700px) {
+    .hero_socials {
         top: 28.4rem;
     }
 }

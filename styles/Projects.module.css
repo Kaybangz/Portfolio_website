@@ -7,7 +7,7 @@
     font-size: clamp(1.6rem, 3.5vw, 1.9rem);
     font-weight: 800;
     margin-bottom: 1rem;
-    color: #3a9efc;
+    color: #33a39e;
 }
 
 .projects_section {
@@ -17,13 +17,12 @@
 .projectContainer {
     display: flex;
     flex-direction: column;
-    background-color: #3a9efce8;
     margin-bottom: 1.5rem;
     border-radius: 5px;
     padding: 15px;
-    box-shadow: 0 0 4px #6fb3f375;
-    -webkit-box-shadow: 0 0 4px #6fb3f375;
-    -moz-box-shadow: 0 0 4px #6fb3f375;
+    box-shadow: 0 0 4px #33a39e;
+    -webkit-box-shadow: 0 0 4px #33a39e;
+    -moz-box-shadow: 0 0 4px #33a39e;
 }
 
 .top {
@@ -37,11 +36,13 @@
 .top h2 {
     font-size: clamp(1.1rem, 3.8vw, 1.2rem);
     font-weight: 900;
+    color: white;
 }
 
 .top span {
     padding: 5px;
     border-radius: 5px;
+    color: white;
 }
 
 
@@ -58,6 +59,7 @@
     font-size: clamp(1.2rem, 3.8vw, 1.3rem);
     font-weight: 900;
     margin-top: .5rem;
+    color: white;
 }
 
 .iconBtn {
@@ -66,9 +68,13 @@
     width: 30px;
     margin-bottom: .5rem;
     cursor: pointer;
-    background-color: #6189ad41;
+    background-color: #15928cde;
     border-radius: 100%;
     padding: 5px;
+}
+
+.iconBtn:hover{
+    background-color: #09726dde;
 }
 
 .icon {
@@ -95,9 +101,10 @@
     margin-right: .6rem;
     border-radius: 5px;
     padding: 7px;
-    background-color: #6189ad41;
+    background-color: #07817b96;
     font-weight: 600;
     font-size: clamp(.7rem, 3.8vw, .8rem);
+    color: white;
 }
 
 

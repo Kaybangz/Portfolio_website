@@ -2,26 +2,37 @@
     display: grid;
     align-self: center;
     justify-self: center;
-    gap: .8rem;
+    gap: 1rem;
 }
 
 .socials_main button {
     height: 35px;
     width: 35px;
-    background: #3a9efce8;
+    background: #33a39e;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.2px);
     -webkit-backdrop-filter: blur(2.2px);
-    border: 1px solid rgba(58, 158, 252, 0.25);
     color: white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.socials_main button:hover{
+    background: #38c0b9;
 }
 
 .socials_main_icons {
     font-size: 20px;
+}
+
+@media screen and (min-width: 700px){
+    .socials_main {
+        gap: 1.2rem;
+    }
+    
 }
 

@@ -32,7 +32,7 @@ const Hero = () => {
               }}
               animate={{ opacity: 1, y: 0 }}
             >
-              I am a Web developer based in Nigeria
+             A Web Developer based in Nigeria
             </motion.h1>
 
             <motion.p
@@ -45,7 +45,7 @@ const Hero = () => {
               }}
               animate={{ opacity: 1, y: 0 }}
             >
-              I work with the javascript react, react native and node frameworks
+              I work with the javascript react and react native frameworks
               to create modern, accessible, and fully responsive websites, web
               applications and mobile apps.
             </motion.p>

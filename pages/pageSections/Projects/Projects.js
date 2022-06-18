@@ -46,8 +46,7 @@ const Projects = () => {
                 animate={animation}
                 transition={{ duration: 1, delay: index * 0.2 }}
                 style={{
-                  background: `linear-gradient(#3a9efce8, #3a9efce8),url(${project.image})`,
-                  backdropFilter: "blur(2.7px)",
+                  background: `linear-gradient(#33a39dee, #33a39dee),url(${project.image})`
                   
                 }}
               >
@@ -91,7 +90,7 @@ const Projects = () => {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <Link href={project.github}>
+                        <Link href={project.github} target="_blank">
                           <BsCodeSlash className={ProjectsStyle.icon} />
                         </Link>
                       </motion.button>
@@ -104,7 +103,7 @@ const Projects = () => {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
                       >
-                        <Link href={project.liveView}>
+                        <Link href={project.liveView} target="_blank">
                           <GrView className={ProjectsStyle.icon} />
                         </Link>
                       </motion.button>

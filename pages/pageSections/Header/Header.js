@@ -60,16 +60,25 @@ const Header = () => {
           </span>
         </div>
 
-        <CgProfile
-          size={35}
-          onClick={() => {
-            setOverlay(<OverlayOne />);
-            onOpen();
-          }}
-          // style={{ cursor: "pointer" }}
-          className={HeaderStyle.modalBtn}
-        />
+        {/* modal button */}
+        <div className={HeaderStyle.modalBtn} onClick={() => {
+              setOverlay(<OverlayOne />);
+              onOpen();
+            }}>
+          <Image
+            src="/IMG_9647.jpg"
+            alt="aboutMe image"
+            className={HeaderStyle.modalBtn_img}
+            height="100%"
+            width="100%"
+            onClick={() => {
+              setOverlay(<OverlayOne />);
+              onOpen();
+            }}
+          />
+        </div>
 
+        {/* modal body */}
         <Modal
           onClose={onClose}
           isOpen={isOpen}
@@ -84,10 +93,13 @@ const Header = () => {
 
             <ModalBody>
               <div>
-                <p style={{fontSize: "clamp(1.1rem, 3.8vw, 1.2rem)"}}>
-                  I am a coding enthusiast, a quick learner, and always eager
-                  to learn about any tool or technology that would allow me to
-                  develop web or mobile applications with seamless, intuitive, and dynamic user experiences. <br/> <br/>I also enjoy playing basketball and FPS video games.
+                <p style={{ fontSize: "clamp(1.1rem, 3.8vw, 1.2rem)" }}>
+                  A coding enthusiast, quick learner, and I am always eager to
+                  learn about any tool or technology that would allow me to
+                  develop web or mobile applications with seamless, intuitive,
+                  and dynamic user experiences. <br /> <br />
+                  Asides coding, I also enjoy playing basketball and FPS video
+                  games.
                 </p>
               </div>
             </ModalBody>

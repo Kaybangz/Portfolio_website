@@ -31,7 +31,7 @@
 }
 
 .sectionOne h1 {
-    color: #3a9efce8;
+    color: #33a39e;
     font-size: clamp(1.8rem, 2.5vw, 2.1rem);
     font-weight: 800;
 }
@@ -44,7 +44,7 @@
 @media screen and (min-width: 700px) {
     .hero_main {
         display: grid;
-        grid-template-columns: 4fr 3fr;
+        grid-template-columns: 3fr 4fr;
         justify-content: center;
         margin: 6rem 0;
         gap: 1.2rem;

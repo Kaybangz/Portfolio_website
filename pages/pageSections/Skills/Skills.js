@@ -1,7 +1,8 @@
 import ContainerSmall from "../../../component/Container/Container";
 import SkillsStyle from "../../../styles/Skills.module.css";
-import {SiJavascript, SiTypescript, SiNextdotjs, SiNodemon, SiMongodb, SiSolidity, SiWeb3Dotjs, SiRedux} from "react-icons/si";
-import {FaReact} from "react-icons/fa"
+import {SiJavascript, SiTypescript, SiNextdotjs, SiNodemon, SiMongodb, SiSolidity, SiWeb3Dotjs, SiRedux, SiJest} from "react-icons/si";
+import {FaReact} from "react-icons/fa";
+import {DiGit} from "react-icons/di";
 import {TbBrandReactNative} from "react-icons/tb";
 import {IoLogoNodejs} from 'react-icons/io';
 
@@ -20,13 +21,17 @@ const Skills = () => {
             <p><SiNextdotjs/>Next js</p>
             <p><SiRedux/>Redux</p>
             <p><TbBrandReactNative/>React Native</p>
+            <p><SiJest/>Jest</p>
+            <p><DiGit/>Git</p>
           </div>
 
           <div>
             <h2>Currently learning</h2>
             <p><IoLogoNodejs/>Node js</p>
+            <p><IoLogoNodejs/>Express</p>
             <p><SiNodemon/>Nodemon</p>
             <p><SiMongodb/>MongoDB</p>
+            <p><IoLogoNodejs/>D3.js</p>
           </div>
 
           <div>
