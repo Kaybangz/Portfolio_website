@@ -94,7 +94,7 @@ const Header = () => {
             <ModalBody>
               <div>
                 <p style={{ fontSize: "clamp(1.1rem, 3.8vw, 1.2rem)" }}>
-                  A coding enthusiast, quick learner, and I am always eager to
+                  I am a coding enthusiast, quick learner, and always eager to
                   learn about any tool or technology that would allow me to
                   develop web or mobile applications with seamless, intuitive,
                   and dynamic user experiences. <br /> <br />

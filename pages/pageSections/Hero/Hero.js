@@ -20,7 +20,7 @@ const Hero = () => {
               transition={{ duration: 2, ease: "easeInOut", type: "spring" }}
               animate={{ opacity: 1, y: 0 }}
             >
-              Hi, my name is Caleb,
+              Hi, my name is Caleb
             </motion.h2>
             <motion.h1
               initial={{ opacity: 0, y: 100 }}

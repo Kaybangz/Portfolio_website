@@ -26,26 +26,25 @@
 
 
 .sectionOne h2 {
-    font-size: clamp(1rem, 3.8vw, 1.2rem);
+    font-size: clamp(1rem, 3.8vw, 1.3rem);
     font-weight: 600;
 }
 
 .sectionOne h1 {
     color: #33a39e;
-    font-size: clamp(1.8rem, 2.5vw, 2.1rem);
+    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
     font-weight: 800;
 }
 
 .sectionOne p {
-    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
     font-weight: 300;
 }
 
 @media screen and (min-width: 700px) {
     .hero_main {
         display: grid;
-        grid-template-columns: 3fr 4fr;
-        justify-content: center;
+        grid-template-columns: 4fr 3fr;
         margin: 6rem 0;
         gap: 1.2rem;
     }
@@ -68,6 +67,15 @@
 
     .sectionOne p{
         line-height: 2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .hero_main {
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+        margin: 6rem 0;
+        gap: 1.2rem;
     }
 }
 

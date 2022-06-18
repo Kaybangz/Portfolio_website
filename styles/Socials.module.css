@@ -31,8 +31,14 @@
 
 @media screen and (min-width: 700px){
     .socials_main {
-        gap: 1.2rem;
+        gap: 1.1rem;
     }
     
 }
 
+@media screen and (min-width: 900px){
+    .socials_main {
+        gap: 1.3rem;
+    }
+    
+}
