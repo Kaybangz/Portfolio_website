@@ -45,7 +45,7 @@ const Hero = () => {
               }}
               animate={{ opacity: 1, y: 0 }}
             >
-              I work with the javascript react and react native frameworks
+              I work with javascript, react, react native and other frontend libraries and frameworks
               to create modern, accessible, and fully responsive websites, web
               applications and mobile apps.
             </motion.p>

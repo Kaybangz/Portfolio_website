@@ -28,10 +28,8 @@
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
-    /* background-color: #3a9efce8; */
     background-color: #33a39e;
     color: white;
-    font-weight: bold;
     font-size: clamp(1rem, 3.5vw, 1rem);
     box-shadow: 0 0 4px #6fb3f375;
     -webkit-box-shadow: 0 0 10px #6fb3f375;

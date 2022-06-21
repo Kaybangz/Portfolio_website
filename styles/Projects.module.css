@@ -35,7 +35,6 @@
 
 .top h2 {
     font-size: clamp(1.1rem, 3.8vw, 1.2rem);
-    font-weight: 900;
     color: white;
 }
 
@@ -57,7 +56,6 @@
 .middle p {
     flex: 2;
     font-size: clamp(1.2rem, 3.8vw, 1.3rem);
-    font-weight: 900;
     margin-top: .5rem;
     color: white;
 }
@@ -102,7 +100,6 @@
     border-radius: 5px;
     padding: 7px;
     background-color: #07817b96;
-    font-weight: 600;
     font-size: clamp(.7rem, 3.8vw, .8rem);
     color: white;
 }
