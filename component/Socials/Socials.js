@@ -12,7 +12,7 @@ const Socials = () => {
   return (
     <main className={SocialsStyle.socials_main}>
 
-      <motion.a href="/devcalebs_resume.pdf" download transition={{ duration: 2, ease: "easeInOut", delay: 0.8, yoyo: 5 }}
+      <motion.a href="/calebsResume.pdf" download transition={{ duration: 2, ease: "easeInOut", delay: 0.8, yoyo: 5 }}
           animate={{ rotate: 360 }}>
         <button
           
